@@ -86,7 +86,7 @@ class incidents extends StatelessWidget {
                                   child: Text('incidents',
                                       style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.white,
+                                          color: app_color3,
                                           fontSize: 13)),
                                 ),
                               ),
@@ -106,7 +106,7 @@ class incidents extends StatelessWidget {
                                             'Ward',
                                             style: GoogleFonts.montserrat(
                                                 fontWeight: FontWeight.w600,
-                                                color: Colors.grey,
+                                                color: Color.fromRGBO(151, 153, 151, 1),
                                                 fontSize: 13),
                                           )),
                                       TextField(
@@ -197,7 +197,7 @@ class incidents extends StatelessWidget {
                                         textAlign: TextAlign.center,
                                         style: GoogleFonts.montserrat(
                                             fontWeight: FontWeight.w600,
-                                            color: Colors.white,
+                                            color: app_color3,
                                             fontSize: 13)),
                                   ),
                                 ),

@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:kachra_app/screens/residents.dart';
+import 'package:kachra_app/screens/start_page.dart';
 
 // PageName:Residents-EmployeeLogin
 
@@ -29,7 +30,7 @@ class EmpLogin2 extends StatelessWidget {
                 children: [
                   Text(
                     'Sign In',
-                    style: TextStyle(color: Color.fromRGBO(95, 128, 94, 1),
+                    style: TextStyle(color: app_color,
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
@@ -51,7 +52,7 @@ class EmpLogin2 extends StatelessWidget {
                           children: [
                             Text(
                               'Email Address',
-                              style: GoogleFonts.montserrat(color: Color.fromRGBO(95, 128, 94, 1),
+                              style: GoogleFonts.montserrat(color: app_color,
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,),
                             ),
@@ -100,7 +101,7 @@ class EmpLogin2 extends StatelessWidget {
                           children: [
                             Text(
                               'Password',
-                              style: GoogleFonts.montserrat(color: Color.fromRGBO(95, 128, 94, 1),
+                              style: GoogleFonts.montserrat(color: app_color,
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,),
                             ),
@@ -168,12 +169,12 @@ class EmpLogin2 extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(15),
                           // border: Border.all(color: Colors.black),
-                          color: Color.fromRGBO(95, 128, 94, 1)),
+                          color: Color.fromRGBO(95, 128, 94, 0.75)),
                       width: MediaQuery.of(context).size.width*0.8,
                       height: 50,
                       child: Center(
                         child: Text('Sign In',style: GoogleFonts.montserrat(
-                            color:Color.fromRGBO(239, 239, 239, 1),
+                            color:app_color3,
                             fontWeight: FontWeight.w600),
                         ),
                       ),

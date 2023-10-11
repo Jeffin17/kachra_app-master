@@ -7,6 +7,7 @@ import '../main.dart';
 import 'bulkwastcollection.dart';
 import 'complaints.dart';
 import 'drawer/drawer_final.dart';
+import 'my_status.dart';
 
 // PageName:Residents
 
@@ -47,7 +48,9 @@ class Mystatus extends StatelessWidget {
               child: Column(
                 children: [
                   GestureDetector(
-                    onTap: (){},
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>CalendarScreen() ));
+                    },
                     child: Container(
                       width: MediaQuery.of(context).size.width*8,
                       height: MediaQuery.of(context).size.height*.18,
@@ -65,7 +68,7 @@ class Mystatus extends StatelessWidget {
                                 image: AssetImage('asset/image/user (1) 1.png',))),
                           ),
                           SizedBox(height: 5,),
-                          Text('My Status',style: GoogleFonts.montserrat(color: Colors.white,fontWeight: FontWeight.bold),
+                          Text('My Status',style: GoogleFonts.montserrat(color: app_color3,fontWeight: FontWeight.bold),
                           )
                         ],
                       ),
@@ -94,7 +97,7 @@ class Mystatus extends StatelessWidget {
                                   image: AssetImage('asset/image/bad-review 2.png',))),
                             ),
                             SizedBox(height: 5,),
-                            Text('Complaints',style: GoogleFonts.montserrat(color: Colors.white,fontWeight: FontWeight.bold),
+                            Text('Complaints',style: GoogleFonts.montserrat(color: app_color3,fontWeight: FontWeight.bold),
                             )
                           ],
                         ),
@@ -121,7 +124,7 @@ class Mystatus extends StatelessWidget {
                                 image: AssetImage('asset/image/repair-tool 1.png',))),
                           ),
                           SizedBox(height: 5,),
-                          Text('Services',style: GoogleFonts.montserrat(color: Colors.white,fontWeight: FontWeight.bold),
+                          Text('Services',style: GoogleFonts.montserrat(color: app_color3,fontWeight: FontWeight.bold),
                           )
                         ],
                       ),

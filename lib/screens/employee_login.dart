@@ -23,29 +23,29 @@ class EmpLogin extends StatelessWidget {
         child: Scaffold(
           resizeToAvoidBottomInset: false,
           backgroundColor: Colors.white,
-          drawer: MyDrawer(),
+          // drawer: MyDrawer(),
 
           body: SafeArea(
             child: Stack(
               children: [
-                Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
-                    child: Builder(
-                      builder: (BuildContext context) {
-                        return IconButton(
-                          onPressed: () {
-                            Scaffold.of(context).openDrawer();
-                          },
-                          icon: Icon(Icons.menu, color: Colors.black, size: 35),
-                        );
-                      },
-                    ),
-                  ),
-                ],
-              ),
+              //   Row(
+              //   mainAxisAlignment: MainAxisAlignment.start,
+              //   children: [
+              //     Padding(
+              //       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+              //       child: Builder(
+              //         builder: (BuildContext context) {
+              //           return IconButton(
+              //             onPressed: () {
+              //               Scaffold.of(context).openDrawer();
+              //             },
+              //             icon: Icon(Icons.menu, color: Colors.black, size: 35),
+              //           );
+              //         },
+              //       ),
+              //     ),
+              //   ],
+              // ),
 
                 Container(
                   decoration: BoxDecoration(

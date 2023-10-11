@@ -70,7 +70,8 @@ class _ServicesState extends State<Services> {
                           'Bulk waste collection',
                           style: GoogleFonts.montserrat(
                               color: app_color3,
-                              fontWeight: FontWeight.w600),
+                              fontWeight: FontWeight.w600,
+                          fontSize: 15),
                         ),
                       ),
                     ),
@@ -93,7 +94,8 @@ class _ServicesState extends State<Services> {
                             'Hotspot cleaning',
                             style: GoogleFonts.montserrat(
                                 color: app_color3,
-                                fontWeight: FontWeight.bold),
+                                fontWeight: FontWeight.w600,
+                                fontSize: 15),
                           ),
                         ),
                       ),
@@ -115,7 +117,8 @@ class _ServicesState extends State<Services> {
                           'Bin related services',
                           style: GoogleFonts.montserrat(
                               color: app_color3,
-                              fontWeight: FontWeight.bold),
+                              fontWeight: FontWeight.w600,
+                              fontSize: 15),
                         ),
                       ),
                     ),

@@ -115,7 +115,7 @@ class _HandleoverState extends State<Handleover> {
                                       Text('Handed Over?',
                                           style: GoogleFonts.montserrat(
                                               fontWeight: FontWeight.w600,
-                                              color: Colors.white,
+                                              color: app_color3,
                                               fontSize: 13)),
                                       Row(
                                         mainAxisAlignment:
@@ -194,7 +194,7 @@ class _HandleoverState extends State<Handleover> {
                                                 'Quality',
                                                 style: GoogleFonts.montserrat(
                                                     fontWeight: FontWeight.w600,
-                                                    color: Colors.white,
+                                                    color: app_color3,
                                                     fontSize: 13),
                                               ),
                                             ),
@@ -265,7 +265,7 @@ class _HandleoverState extends State<Handleover> {
                                                 'Quantity',
                                                 style: GoogleFonts.montserrat(
                                                     fontWeight: FontWeight.w600,
-                                                    color: Colors.white,
+                                                    color: app_color3,
                                                     fontSize: 13),
                                               ),
                                             ),
@@ -342,7 +342,7 @@ class _HandleoverState extends State<Handleover> {
                                                         GoogleFonts.montserrat(
                                                             fontWeight:
                                                                 FontWeight.w600,
-                                                            color: Colors.white,
+                                                            color: app_color3,
                                                             fontSize: 13),
                                                   ),
                                                 ],

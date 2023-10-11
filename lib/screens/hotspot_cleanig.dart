@@ -168,8 +168,8 @@ class Hotspotcleaning extends StatelessWidget {
                                   child: Text('Hotspot cleaning',
                                       style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.white,
-                                          fontSize: 13)),
+                                          color: app_color3,
+                                          fontSize: 15)),
                                 ),
                               ),
                               Padding(
@@ -188,7 +188,7 @@ class Hotspotcleaning extends StatelessWidget {
                                             'Ward',
                                             style: GoogleFonts.montserrat(
                                                 fontWeight: FontWeight.w600,
-                                                color: Colors.grey,
+                                                color: Color.fromRGBO(151, 153, 151, 1),
                                                 fontSize: 13),
                                           )),
                                       TextField(

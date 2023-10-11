@@ -169,8 +169,8 @@ class Bulkwaste extends StatelessWidget {
                                   child: Text('Bulk waste collection',
                                       style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.white,
-                                          fontSize: 13)),
+                                          color: app_color3,
+                                          fontSize: 15)),
                                 ),
                               ),
                               Padding(
@@ -189,7 +189,7 @@ class Bulkwaste extends StatelessWidget {
                                             'Ward',
                                             style: GoogleFonts.montserrat(
                                                 fontWeight: FontWeight.w600,
-                                                color: Colors.grey,
+                                                color: Color.fromRGBO(151, 153, 151, 1),
                                                 fontSize: 13),
                                           )),
                                       TextField(
@@ -246,7 +246,7 @@ class Bulkwaste extends StatelessWidget {
                                     disabledBorder: InputBorder.none,
                                     hintStyle: GoogleFonts.montserrat(
                                         fontWeight: FontWeight.w600,
-                                        color: Colors.grey.shade300,
+                                        color: Color.fromRGBO(214, 214, 214, 1),
                                         fontSize: 13),
                                   ),
                                   cursorColor: Colors.black,

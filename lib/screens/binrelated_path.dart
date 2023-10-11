@@ -84,8 +84,8 @@ class BinrelatedServices extends StatelessWidget {
                                   child: Text('Bin related services',
                                       style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.white,
-                                          fontSize: 13)),
+                                          color: app_color3,
+                                          fontSize: 15)),
                                 ),
                               ),
 
@@ -104,7 +104,7 @@ class BinrelatedServices extends StatelessWidget {
                                     child: Center(
                                       child: Text('Repairing & Maintenance',style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.grey,
+                                          color: Color.fromRGBO(151, 153, 151, 1),
                                           fontSize: 13)
                                       ),
                                     ),
@@ -127,7 +127,7 @@ class BinrelatedServices extends StatelessWidget {
                                     child: Center(
                                       child: Text('Application for new bin',style: GoogleFonts.montserrat(
                                           fontWeight: FontWeight.w600,
-                                          color: Colors.grey,
+                                          color: Color.fromRGBO(151, 153, 151, 1),
                                           fontSize: 13)
                                       ),
                                     ),
